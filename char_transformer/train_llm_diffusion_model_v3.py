@@ -12,7 +12,7 @@ import math
 
 """
 This character level transformers combine two technologies into one.
-We we LLM for next token predection and a masked  text diffusion model
+LLM for next token predection and a masked  text diffusion model
 for futture tokens. Paper: TiDAR - Think in Diffusion, Talk in Autoregression, 2025
 In benifit is about 4x speedup in text generation.
 """
