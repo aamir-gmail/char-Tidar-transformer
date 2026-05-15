@@ -12,7 +12,7 @@
 ## Core Architecture: The Single-Model Concept
 * **The Paradigm:** TiDAR rejects the traditional two-model speculative decoding setup. 
 * **The Unified Design:** It executes parallel token drafting ("thinking") and high-fidelity sequential verification ("talking") inside a **single model** during a **single forward pass**.
-* **The Efficiency:** It scales up to an **8B parameter size**, delivering a **4.7x to 5.9x throughput speedup** with effectively zero memory overhead and no extra draft model tracking.
+* **The Efficiency:** It scales up to an **8B parameter size**, (not released) delivering a **4.7x to 5.9x throughput speedup** with effectively zero memory overhead and no extra draft model tracking.
 
 ## Inside the Single Forward Pass
 * **Hybrid Attention Masking:** Split into two distinct functional zones processed simultaneously in one GPU operation:
