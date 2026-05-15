@@ -1,5 +1,14 @@
 # TiDAR: Think in Diffusion, Talk in Autoregression (NVIDIA, 2025)
 
+## I have kept the implementation small, so you can train and run even on a laptop
+
+## This character level transformers combine two technologies into one.
+* ** LLM for next token predection and a masked  text diffusion model for futture tokens
+* **Paper: TiDAR - Think in Diffusion, Talk in Autoregression, 2025
+* ** In benifit is about 4x speedup in text generation.
+
+## Train script for version three are self-contain with no external dependencies.
+
 ## Core Architecture: The Single-Model Concept
 * **The Paradigm:** TiDAR rejects the traditional two-model speculative decoding setup. 
 * **The Unified Design:** It executes parallel token drafting ("thinking") and high-fidelity sequential verification ("talking") inside a **single model** during a **single forward pass**.
