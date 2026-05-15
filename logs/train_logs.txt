@@ -1,0 +1,219 @@
+2026-05-15 13:30:41 | INFO     | Initializing TiDAR Hybrid architecture on device: CUDA
+2026-05-15 13:30:41 | INFO     | Fetching wikitext (wikitext-103-raw-v1)...
+2026-05-15 13:30:47 | INFO     | Concatenating text chunks...
+2026-05-15 13:30:48 | INFO     | Filtering out non-English Unicode characters...
+2026-05-15 13:30:50 | INFO     | Dataset loaded. Filtered Length: 49,936,307 characters (Raw was 50,000,000).
+2026-05-15 13:30:50 | INFO     | Vocab size: 97 (Includes 1 special [MASK] token at ID 96)
+2026-05-15 13:30:53 | INFO     | Train data split: 44,942,676 | Val data split: 4,993,631
+2026-05-15 13:30:54 | WARNING  | No checkpoint found at checkpoints/tidar_ckpt_latest.pt. Starting from scratch.
+2026-05-15 13:30:54 | INFO     | Starting training loop with BF16 Mixed Precision & Cosine Decay...
+2026-05-15 13:30:58 | INFO     | Step    0 | LR: 0.00e+00 | Train Loss: 4.7602 | Val Loss: 4.7586
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'o keep them under appropriate conditions'
+Ground Truth Future (Hidden):             ' of conservation'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'NNFNFNFFNNFFNFNN'
+2. LLM AR Verification (Causal):          'NNN!N!N!!"N!!N!N'
+3. Final Combined Output:                 'NNN'
+=================================================================
+
+2026-05-15 13:30:58 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:33:16 | INFO     | Step  500 | LR: 1.50e-04 | Train Loss: 2.7665 | Val Loss: 2.7674
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'y at first @-@ class level .   The day a'
+Ground Truth Future (Hidden):             'fter the announc'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           '                '
+2. LLM AR Verification (Causal):          'n=aaaaaa=aa==aa='
+3. Final Combined Output:                 'n'
+=================================================================
+
+2026-05-15 13:33:17 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:35:45 | INFO     | Step 1000 | LR: 3.00e-04 | Train Loss: 1.1020 | Val Loss: 1.1040
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'e Down the Wind ( 1961 ) , The L @-@ Sha'
+Ground Truth Future (Hidden):             'ped Room ( 1962 '
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'sWTgeTw4twTgoP u'
+2. LLM AR Verification (Causal):          'r ehe he   her ,'
+3. Final Combined Output:                 'r'
+=================================================================
+
+2026-05-15 13:35:46 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:38:12 | INFO     | Step 1500 | LR: 3.00e-04 | Train Loss: 0.9302 | Val Loss: 0.9299
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'Formartine and Buchan Railway = = = =   '
+Ground Truth Future (Hidden):             'Permission to bu'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'TieiPePrTOTf= Oi'
+2. LLM AR Verification (Causal):          '=hssr   i       '
+3. Final Combined Output:                 '='
+=================================================================
+
+2026-05-15 13:38:12 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:40:38 | INFO     | Step 2000 | LR: 2.98e-04 | Train Loss: 0.8363 | Val Loss: 0.8324
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'ia is an area of approximately one squar'
+Ground Truth Future (Hidden):             'e mile surrounde'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'sitOoTtiTtTctTtS'
+2. LLM AR Verification (Causal):          't oynnaaciehheha'
+3. Final Combined Output:                 't'
+=================================================================
+
+2026-05-15 13:40:38 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:43:07 | INFO     | Step 2500 | LR: 2.96e-04 | Train Loss: 0.7808 | Val Loss: 0.7797
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'off spin to conserve energy . Hutton and'
+Ground Truth Future (Hidden):             ' Compton exploit'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'vvtangaatnTanatT'
+2. LLM AR Verification (Causal):          ' aeencettee n  e'
+3. Final Combined Output:                 ' '
+=================================================================
+
+2026-05-15 13:43:07 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:45:32 | INFO     | Step 3000 | LR: 2.93e-04 | Train Loss: 0.7539 | Val Loss: 0.7480
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'd a six @-@ year , $ 50 million contract'
+Ground Truth Future (Hidden):             ' with the Philli'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'dreeeeereeTTeeer'
+2. LLM AR Verification (Causal):          'iiasdrrr dr  rnn'
+3. Final Combined Output:                 'i'
+=================================================================
+
+2026-05-15 13:45:32 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:47:54 | INFO     | Step 3500 | LR: 2.89e-04 | Train Loss: 0.7195 | Val Loss: 0.7266
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): '-@ Man . In films , Spider @-@ Man has b'
+Ground Truth Future (Hidden):             'een portrayed by'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'ooooootattootoor'
+2. LLM AR Verification (Causal):          'erkkkkn lienn  n'
+3. Final Combined Output:                 'e'
+=================================================================
+
+2026-05-15 13:47:54 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:50:17 | INFO     | Step 4000 | LR: 2.84e-04 | Train Loss: 0.7086 | Val Loss: 0.7121
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'h the side returned to New Zealand . The'
+Ground Truth Future (Hidden):             ' " Original All '
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'taenxen    nnntt'
+2. LLM AR Verification (Causal):          ' e  a s wtttooe '
+3. Final Combined Output:                 ' '
+=================================================================
+
+2026-05-15 13:50:18 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:52:43 | INFO     | Step 4500 | LR: 2.78e-04 | Train Loss: 0.6984 | Val Loss: 0.7017
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): ' United States Constitution . However , '
+Ground Truth Future (Hidden):             'Section 116 is m'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'ohoevoeeoorooaao'
+2. LLM AR Verification (Causal):          'tnilvelddnd lll '
+3. Final Combined Output:                 't'
+=================================================================
+
+2026-05-15 13:52:43 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:55:11 | INFO     | Step 5000 | LR: 2.72e-04 | Train Loss: 0.6895 | Val Loss: 0.6896
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): ' .   = = = Wife 's tax fraud conviction '
+Ground Truth Future (Hidden):             '= = =   In Augus'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           '@tttggttmtmtt to'
+2. LLM AR Verification (Causal):          '=-ieeeehee e  =o'
+3. Final Combined Output:                 '='
+=================================================================
+
+2026-05-15 13:55:12 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 13:58:11 | INFO     | Step 5500 | LR: 2.64e-04 | Train Loss: 0.6744 | Val Loss: 0.6795
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'by Val Guest .   Although Quatermass 2 w'
+Ground Truth Future (Hidden):             'as financially s'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'oioooioi   onno '
+2. LLM AR Verification (Causal):          'aulndnsnsw11n  u'
+3. Final Combined Output:                 'a'
+=================================================================
+
+2026-05-15 13:58:11 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 14:00:36 | INFO     | Step 6000 | LR: 2.56e-04 | Train Loss: 0.6696 | Val Loss: 0.6769
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 's both ranked first during their first w'
+Ground Truth Future (Hidden):             'eek of sales . T'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           ' s  g e         '
+2. LLM AR Verification (Causal):          'i.ettraa@ttt    '
+3. Final Combined Output:                 'i'
+=================================================================
+
+2026-05-15 14:00:36 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 14:02:59 | INFO     | Step 6500 | LR: 2.48e-04 | Train Loss: 0.6600 | Val Loss: 0.6659
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'ng to the government , the Louvre is in '
+Ground Truth Future (Hidden):             'charge of 678 pi'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'ooooooooooroohrh'
+2. LLM AR Verification (Causal):          'tndnnnnnkkk ukoo'
+3. Final Combined Output:                 't'
+=================================================================
+
+2026-05-15 14:02:59 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
+2026-05-15 14:05:21 | INFO     | Step 7000 | LR: 2.39e-04 | Train Loss: 0.6593 | Val Loss: 0.6617
+
+=================================================================
+🔍 TiDAR TRUE SPECULATIVE GENERATION INSPECTION
+=================================================================
+Prompt Context (Last 40 chars): 'riage accident in the park in 1911 . His'
+Ground Truth Future (Hidden):             ' sister remained'
+-----------------------------------------------------------------
+1. Diffusion Drafts (Parallel):           'eeee@eew oothwe '
+2. LLM AR Verification (Causal):          ' lnns dsawfdheas'
+3. Final Combined Output:                 ' '
+=================================================================
+
+2026-05-15 14:05:22 | INFO     | Checkpoint saved to checkpoints/tidar_ckpt_latest.pt
